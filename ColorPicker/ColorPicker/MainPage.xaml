@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ColorPicker"
+             x:Class="ColorPicker.MainPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Color Picker Sample" FontSize="16"/>
+            <BoxView x:Name="BoxView" BackgroundColor="Black"  WidthRequest="100" HeightRequest="100"></BoxView>
+            <Button Text="Pick a Color" Clicked="Button_OnClicked"></Button>            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
